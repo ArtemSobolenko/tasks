@@ -1,6 +1,8 @@
 package tasks.task1.services;
 
+import tasks.task1.entity.ChessDesk;
+
 public interface DeskService {
-    String createChessDesk(int width, int height);
-    void printChessDesk(String s);
+    ChessDesk createChessDesk(int width, int height);
+    void printChessDesk(ChessDesk chessDesk);
 }

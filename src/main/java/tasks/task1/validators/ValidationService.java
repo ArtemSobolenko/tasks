@@ -1,5 +1,7 @@
 package tasks.task1.validators;
 
+import tasks.task1.exeptions.ArgsException;
+
 public interface ValidationService {
-    void validationArgs(String[] args);
+    int[] validationArgs(String[] args) throws ArgsException;
 }
