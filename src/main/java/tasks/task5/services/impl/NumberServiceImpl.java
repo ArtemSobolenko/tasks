@@ -7,6 +7,7 @@ import tasks.task5.services.NumberService;
 import java.util.Locale;
 
 public class NumberServiceImpl implements NumberService {
+
     private static RuleBasedNumberFormat numberFormat = new RuleBasedNumberFormat(Locale.forLanguageTag("ru"), RuleBasedNumberFormat.SPELLOUT);
 
     @Override
